@@ -21,10 +21,11 @@
 #ifndef _ESPAsyncWebServer_H_
 #define _ESPAsyncWebServer_H_
 
+// clang-format off
 #include "Arduino.h"
 
 #include <functional>
-#include "FS.h"
+#include <LittleFS.h> // https://github.com/espressif/arduino-esp32/tree/master/libraries/LittleFS
 
 #include "StringArray.h"
 
